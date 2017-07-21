@@ -1,10 +1,7 @@
 /**
  * 
  */
-package org.training;
-
-import org.training.wellsfargo.PaymentType;
-import org.training.wellsfargo.VendingMachine;
+package org.training.wellsfargo;
 
 /**
  * @author User

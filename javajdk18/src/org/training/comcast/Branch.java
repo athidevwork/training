@@ -1,4 +1,4 @@
-package org.training;
+package org.training.comcast;
 
 import java.util.List;
 
