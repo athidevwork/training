@@ -25,7 +25,7 @@ class Employee {
 	
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + "]";
+		return "[name=" + name + "]";
 	}
 }
 
@@ -65,10 +65,12 @@ public class DigitalHome {
 		employees.add(new Employee("John"));
 		employees.add(new Employee("George"));
 		employees.add(new Employee("Ringo"));
+		employees.add(new Employee("John"));
 
-		/*for (Employee e : employees) {
+/*		for (Employee e : employees) {
+			System.out.println("test " + e.getName());
 			if (e.getName() == "John") {
-			employees.remove(e);
+				employees.remove(e);
 			}
 		}*/
 

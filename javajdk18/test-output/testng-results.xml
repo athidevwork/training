@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[getting singleton...]]>
+    </line>
+    <line>
+      <![CDATA[...got singleton: org.training.patterns.ClassicSingleton@4883b407]]>
+    </line>
+    <line>
+      <![CDATA[getting singleton...]]>
+    </line>
+    <line>
+      <![CDATA[...got singleton: org.training.patterns.ClassicSingleton@4883b407]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40" started-at="2017-07-26T20:52:08Z" finished-at="2017-07-26T20:52:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40" started-at="2017-07-26T20:52:08Z" finished-at="2017-07-26T20:52:08Z">
+      <class name="org.training.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.training.NewTest@3c756e4d]" name="beforeClass" is-config="true" duration-ms="9" started-at="2017-07-26T16:52:08Z" finished-at="2017-07-26T16:52:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[getting singleton...]]>
+            </line>
+            <line>
+              <![CDATA[...got singleton: org.training.patterns.ClassicSingleton@4883b407]]>
+            </line>
+            <line>
+              <![CDATA[getting singleton...]]>
+            </line>
+            <line>
+              <![CDATA[...got singleton: org.training.patterns.ClassicSingleton@4883b407]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testUnique()[pri:0, instance:org.training.NewTest@3c756e4d]" name="testUnique" duration-ms="6" started-at="2017-07-26T16:52:08Z" finished-at="2017-07-26T16:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnique -->
+      </class> <!-- org.training.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
