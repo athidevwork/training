@@ -47,72 +47,8 @@ public class JDK8Training {
 
 	public static void main(String[] args) {
 		jdk18(); 
-		
-		general();
 	}
 
-	private static void general() {
-		Scanner scan = new Scanner(System.in);
-        System.out.print("Enter 1st number : "); 
-        int first = scan.nextInt();
-        System.out.print("Enter 2nd number : "); 
-        int second = scan.nextInt();
-        System.out.print("Enter 3rd number : "); 
-        int third = scan.nextInt();        
-
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println(third);
-        scan.close();
-        
-        //if else
-        Scanner sc = new Scanner(System.in);       
-        System.out.print("Enter Number : ");
-        int number = sc.nextInt(); 
-
-        while (number!=0){
-            System.out.print("Enter number : ");
-            number = sc.nextInt();
-            if (number % 2 != 0) {
-            	System.out.println("Weird");
-            }
-            else if ((number % 2 == 0) && (number <=2 || number >= 5)) {
-            	System.out.println("Not Weird");
-            }
-            else if ((number % 2 == 0) && (number >=6 || number <= 20)) {
-            	System.out.println("Weird");
-            }
-            else if ((number % 2 == 0) && number > 20) {
-            	System.out.println("Not Weird");
-            }
-            else {
-            	System.out.println("Weird");
-            }         
-        }
-        sc.close();   
-        /*for (int i=0; i < 4; i++) {
-    		scan = new Scanner(System.in);
-            System.out.print("Enter number : "); 
-            int number = scan.nextInt();
-
-            if (number % 2 != 0) {
-            	System.out.println("Weird");
-            }
-            else if ((number % 2 == 0) && (number <=2 || number >= 5)) {
-            	System.out.println("Not Weird");
-            }
-            else if ((number % 2 == 0) && (number >=6 || number <= 20)) {
-            	System.out.println("Weird");
-            }
-            else if ((number % 2 == 0) && number > 20) {
-            	System.out.println("Not Weird");
-            }
-            else {
-            	System.out.println("Weird");
-            }
-            scan.close();
-        }*/
-	}
 
 	private static void jdk18() {
 		System.out.println("Default / Static on interface");
