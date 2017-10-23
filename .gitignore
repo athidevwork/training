@@ -1,2 +1,3 @@
 *.class
 javajdk18/test-output/*
+javajdk18/target/*
