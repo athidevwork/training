@@ -3,6 +3,7 @@
  */
 package org.training;
 
+import java.awt.List;
 import java.util.Scanner;
 
 /**
@@ -18,7 +19,59 @@ public class HackerRank {
 		//general();
 		//getArea();
 		//getNonNeg();
-		getStdinStdout();
+		//getStdinStdout();
+		test1();
+		//compareStrings();
+	}
+
+	/*public static void compareStrings(StringSupplier supplier1, StringSupplier supplier2, List<Boolean> results) {
+        try {
+            while (true) {
+                String string1 = supplier1.getNext();
+                String string2 = supplier2.getNext();
+                
+                if (string1 != null && string2 != null) {
+	                if (string1 == string2) {
+	                    results.add(true);
+	                } else {
+	                    results.add(false);
+	                }
+                } else {
+                	if (string1 == null && string2 == null)
+                		results.add(true);
+                	else
+                		results.add(false);
+                }
+            }
+        } catch (Exception e) {
+        	if (results.size() == 0)
+        		results.add(false);
+        }		
+	}*/
+
+	private static void test1() {
+		//3
+		//5
+		//23
+		//answer - 13 23
+        Scanner scan = new Scanner(System.in);
+        int digit = scan.nextInt();
+		int start = scan.nextInt();
+		int end = scan.nextInt();
+		
+		StringBuilder numberList = new StringBuilder();
+		for (int i = start; i <= end; i++) {
+			if (i % 10 == digit) {
+				numberList.append(i);
+                if (i != end)
+                    numberList.append(" ");
+            }   
+		}
+		if (numberList.length() == 0) {
+			numberList.append("");
+		}
+		System.out.println(numberList.toString());
+        //return numberList.toString();
 	}
 
 	private static void getStdinStdout() {
